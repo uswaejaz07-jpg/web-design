@@ -1,21 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
-    width: 60%;
+    font-size: 20px;
+    font-family:  Calibri, Arial;
+}
+.Header {
+    width: 1140px;
+    margin: 20px auto 10px auto;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-image: url(bg-img.jpg);
+    background-size: cover;
 }
 h1, h2{
     color: #ffa500;
 }
 h1 {
     font-size: 50px;
+    margin-bottom: 20px;
 }
 h2{
     font-size: 30px;
+    margin-bottom: 10px;
 }
 img {
     height: auto;
-    width: 100%;
+    width: 60%;
 }
 #footer-image {
     height: 100px;
     width: 100px;
     border-radius: 50px;
+}
+#footer-heading {
+    border-top: 1px solid #808080;
 }
