@@ -58,3 +58,6 @@ h2 {
 .btn-full:active {
     background-color: #bd0592;
 }
+.main-nav {
+    list-style: none;
+}
