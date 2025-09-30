@@ -17,6 +17,21 @@ html, body{
 }
 
 
+/*******Clearfix*******/
+
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+
+
 /******Buttons******/
 
 
@@ -158,6 +173,7 @@ header{
     color: #555;
     font-weight: 300;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .section-sub-heading:after {
@@ -206,4 +222,52 @@ header{
 .portfolio-img img:hover {
     transform: scale(1);
     opacity: 1;
+}
+
+/********Services-Section*******/
+
+.services-section {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.service-box {
+    padding: 1% 3%;
+}
+
+.big-tags {
+    font-size: 250%;
+    color: #6920b0;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.service-heading {
+    font-size: 150%;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.service-para {
+    color: #555;
+    font-size: 90%;
+    margin-bottom: 20px;
+}
+
+.service-link {
+    color: #ed07b7;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/******* Featured sections *****/
+
+.partner-section {
+    text-align: center;
+}
+
+.partner-logo {
+    width: 65%;
+    height: auto;
 }
