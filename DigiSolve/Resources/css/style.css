@@ -36,18 +36,21 @@ html, body{
 
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 200px;
 }
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
     background-color: #ed07b7;
     color: #fff;
 }
 .btn-full:hover ,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover {
     background-color: #bd0592;
 }
 .btn-ghost:link ,
@@ -395,4 +398,126 @@ cite img {
 
 .package-box div:first-child {
     background-color: #fcfcfc;
+}
+
+/****** Contact form Section ********/
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-heading {
+    color: #000;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+    color: #555;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+input[type=submit] {
+    border: none;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {
+    outline: none;
+}
+
+/******* Footer *******/
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+    color: #888;
+}
+
+.footer-nav {
+    float: left;
+}
+
+.footer-nav li{
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    color: #888;
+    transition: 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #fff;
+}
+
+.social-links {
+    float: right;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.social-links li {
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.fa-facebook-f, 
+.fa-twitter,
+.fa-google-plus-g,
+.fa-instagram {
+    transition: color 0.2s;
+}
+
+.fa-facebook-f:hover{
+    color:#1877f2 ;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.fa-google-plus-g:hover{
+    color: #db4437;
+}
+
+.fa-instagram:hover{
+    color: #c32aa3;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.5;
 }
